@@ -63,6 +63,7 @@ app.get('/franchise',(req,res)=>{
             res.send(err);
           }
 })
+
 app.post('/franchise',async(req,res)=>{
        try{
              
